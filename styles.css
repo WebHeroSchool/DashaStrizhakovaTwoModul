@@ -1,7 +1,47 @@
 body {
+  margin: 0;
   font-family: Helvetica;
 }
 
 .main-content__title {
   font-family: 'Roboto';
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+
+.header {
+  border: dashed 1px red;
+  display: flex; /* display:flex и justify-content:space-between; вместе работают в паре. flex значение делает содержимое гибким */
+  justify-content: space-between; /* автоматически прижимает элементы к бокам*/
+}
+
+.logo, .menu{
+  display: inline-block; /* выставляет элементы друг за дургом */
+  border: dashed 1px red;
+}
+
+.logo {
+  margin-right: 63%; /* делает отступ справа в 63% */
+  padding: 40px 0; /* делает отступы сверху/снизу=40, справа/слева=0 (сокращенное написание) */
+}
+
+.menu {
+  display: flex; /* display дзначением делает элемент гибким ( работает в паре с align-items) */
+  align-items: center; /* элементы центрирует*/
+}
+
+.menu__item {
+	padding: 0 13px; /* делает внутренние отступы у элементов */
+}
+
+.menu__item:last-child { /* помогает обратить к последнему элементку из элементов в дереве на одном уровне*/
+	padding-right: 0;
+}
+
+.main-section {
+  /*border: dashed 1px red;*/
 }
