@@ -10,11 +10,11 @@ body {
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
+  /* border: dashed 1px red; */
 }
 
 .header {
-  border: dashed 1px red;
+  /* border: dashed 1px red; */
   display: flex; /* display:flex и justify-content:space-between; вместе работают в паре. flex значение делает содержимое гибким */
   justify-content: space-between; /* автоматически прижимает элементы к бокам */
 }
@@ -22,12 +22,12 @@ body {
 .logo,
 .menu {
   display: inline-block; /* выставляет элементы друг за дургом */
-  border: dashed 1px red;
+  /* border: dashed 1px red; */
 }
 
 .logo {
-  margin-right: 63%; /* делает отступ справа в 63% */
-  padding: 40px 0; /* делает отступы сверху/снизу=40, справа/слева=0 (сокращенное написание) */
+  padding: 40px 0; /* делает отступы сверху/снизу=40, справа/слева=0 (сокращенное написание) */
+  font-family: pt_serif, arial, Helvetica, sans-serif;
 }
 
 .menu {
