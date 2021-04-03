@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
 }
 
 .main-content__title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -16,10 +16,11 @@ body {
 .header {
   border: dashed 1px red;
   display: flex; /* display:flex и justify-content:space-between; вместе работают в паре. flex значение делает содержимое гибким */
-  justify-content: space-between; /* автоматически прижимает элементы к бокам*/
+  justify-content: space-between; /* автоматически прижимает элементы к бокам */
 }
 
-.logo, .menu{
+.logo,
+.menu {
   display: inline-block; /* выставляет элементы друг за дургом */
   border: dashed 1px red;
 }
@@ -31,17 +32,17 @@ body {
 
 .menu {
   display: flex; /* display дзначением делает элемент гибким ( работает в паре с align-items) */
-  align-items: center; /* элементы центрирует*/
+  align-items: center; /* элементы центрирует */
 }
 
 .menu__item {
-	padding: 0 13px; /* делает внутренние отступы у элементов */
+  padding: 0 13px; /* делает внутренние отступы у элементов */
 }
 
-.menu__item:last-child { /* помогает обратить к последнему элементку из элементов в дереве на одном уровне*/
-	padding-right: 0;
+.menu__item:last-child { /* помогает обратить к последнему элементку из элементов в дереве на одном уровне */
+  padding-right: 0;
 }
 
 .main-section {
-  /*border: dashed 1px red;*/
+  /* border: dashed 1px red; */
 }
