@@ -14,35 +14,56 @@ body {
 }
 
 .header {
-  /* border: dashed 1px red; */
-  display: flex; /* display:flex и justify-content:space-between; вместе работают в паре. flex значение делает содержимое гибким */
-  justify-content: space-between; /* автоматически прижимает элементы к бокам */
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo,
 .menu {
-  display: inline-block; /* выставляет элементы друг за дургом */
-  /* border: dashed 1px red; */
+  display: inline-block;
+
 }
 
 .logo {
-  padding: 40px 0; /* делает отступы сверху/снизу=40, справа/слева=0 (сокращенное написание) */
-  font-family: pt_serif, arial, Helvetica, sans-serif;
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, Helvetica, sans-serif; 
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: .7;
 }
 
 .menu {
-  display: flex; /* display дзначением делает элемент гибким ( работает в паре с align-items) */
-  align-items: center; /* элементы центрирует */
+  display: flex;
+  align-items: center;
 }
 
 .menu__item {
-  padding: 0 13px; /* делает внутренние отступы у элементов */
+  padding: 0 13px;
 }
 
-.menu__item:last-child { /* помогает обратить к последнему элементку из элементов в дереве на одном уровне */
+.menu__item:last-child {
   padding-right: 0;
 }
 
-.main-section {
-  /* border: dashed 1px red; */
-}
