@@ -28,7 +28,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px 'pt_serifbold', arial, Helvetica, sans-serif; 
+  font: bold 24px/31px 'pt_serifbold', arial, Helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -60,10 +60,78 @@ body {
 }
 
 .menu__item {
-  padding: 0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px 'Roboto', arial, Helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.menu__item_active::after {
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
+}
+
+.menu__item:hover:after {
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.menu__item:hover {
+  opacity: .5;
+}
+
+.menu__item:hover:after,
+.menu__item_active:after {
+  opacity: 1;
 }
 
 .menu__item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
+
+.main-content__title {
+  font: bold 66px/85px 'pt_serifbold', arial, Helvetica, sans-serif;
+}
+
+.main-content__description {
+  font: normal 22px/26px 'Roboto', arial, Helvetica, sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
