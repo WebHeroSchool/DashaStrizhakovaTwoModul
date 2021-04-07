@@ -170,24 +170,34 @@ body {
   border-radius: 50%;
 }
 
-
 @media (max-width: 768px) {
   .menu {
   	display: none;
-  	font: bold 30px/39px 'pt_serifbold', arial, Helvetica, sans-serif;
-  }
+    }
 
   .header {
     margin-bottom: 28px;
-    font: 500 16px/19px 'Roboto', arial, Helvetica, sans-serif;
-  }
+    }
   
   .main {
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
+    }
+
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px 'pt_serifbold', arial, Helvetica, sans-serif;
+    }
+
+  .main__description {
+    margin-bottom: 25px;
+    font: 500 16px/19px 'Roboto', arial, Helvetica, sans-serif;
+    }
+
+  .main__button {
     font: bold 14px/16px 'Roboto', arial, Helvetica, sans-serif;
-  }
+    }
 }
 
 
