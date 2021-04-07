@@ -6,7 +6,6 @@ body {
 .wrapper {
   margin: auto;
   width: 80%;
-  /* border: dashed 1px red; */
 }
 
 .header {
@@ -133,11 +132,41 @@ body {
   background: #0056EC;
   border-radius: 4px;
   text-decoration: none;
-  font: normal 18px/21px 'Roboto', arial, Helvetica, sans-serif;
+  font: normal 19.5px/21px 'Roboto', arial, Helvetica, sans-serif;
   transition: opacity 0.5s;
 }
 
 .main__button:hover {
   opacity: 0.5;
+}
+
+.main__circle_color_white {
+  position: relative;
+  margin-top: 269px;
+  margin-left: 761px; 
+  width: 8px;
+  height: 8px;
+  background: #c8dbfb;
+  border-radius: 50%;
+}
+
+.main__circle_color_white:before {
+  position: absolute;
+  right: 12px;
+  content: '';
+  background: #c8dbfb;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.main__circle_color_white:after {
+  position: absolute;
+  margin-left: 12px;
+  content: '';
+  background: #c8dbfb;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
 
