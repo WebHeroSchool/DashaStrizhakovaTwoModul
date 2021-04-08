@@ -172,10 +172,10 @@ body {
 
 @media (max-width: 768px) {
   .menu {
-  	display: none;
-    }
+    display: none;
+  }
 
-  .main__circle_color_white{
+  .main__circle_color_white {
     display: none;
     }
 
@@ -186,7 +186,7 @@ body {
   .logo > span {
   	display: none;
   }
-  
+
   .main {
     text-align: center;
     padding: 45% 0 0;
