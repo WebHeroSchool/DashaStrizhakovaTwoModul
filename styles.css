@@ -117,7 +117,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: #ecf3ff;
+  background: linear-gradient(to top, white 8%, #ecf3ff 8%, #ecf3ff 85%, white 85%);
 }
 
 .main__description {
@@ -175,12 +175,21 @@ body {
   	display: none;
     }
 
+  .main__circle_color_white{
+    display: none;
+    }
+
   .header {
     margin-bottom: 28px;
     }
+
+  .logo > span {
+  	display: none;
+  }
   
   .main {
-    padding: 74% 0 0;
+    text-align: center;
+    padding: 45% 0 0;
     background-size: 74%;
     background-position: top center;
     }
@@ -199,18 +208,5 @@ body {
     font: bold 14px/16px 'Roboto', arial, Helvetica, sans-serif;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
