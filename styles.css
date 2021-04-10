@@ -17,7 +17,6 @@ body {
 .logo,
 .menu {
   display: inline-block;
-
 }
 
 .logo {
@@ -66,7 +65,7 @@ body {
 }
 
 .menu__item_active::after {
-  /*position: absolute;*/
+  position: absolute;
   display: block;
   content: '';
   left: 0;
@@ -76,7 +75,7 @@ body {
 }
 
 .menu__item:hover::after {
-  /*position: absolute;*/
+  position: absolute;
   display: block;
   content: '';
   left: 0;
@@ -151,7 +150,7 @@ body {
 }
 
 .main__circle_color_white::before {
-  /*position: absolute;*/
+  position: absolute;
   right: 12px;
   content: '';
   background: #c8dbfb;
@@ -161,7 +160,7 @@ body {
 }
 
 .main__circle_color_white::after {
-  /*position: absolute;*/
+  position: absolute;
   margin-left: 12px;
   content: '';
   background: #c8dbfb;
@@ -214,22 +213,80 @@ body {
     margin-left: 46px;
     width: 91%;
   }
+
+  .header {
+    margin-bottom: 86px;
+  }
+
+  .logo {
+    position: relative;
+    padding: 40px 0;
+    padding-left: 44px;
+    font: bold 24px/31px 'pt_serifbold', arial, Helvetica, sans-serif;
+  }
+
+  .logo__circle {
+    position: absolute;
+    left: 0px;
+    top: 49%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+  }
+
+  .logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #C8DBFB;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+
+  .menu {
+    display: flex;
+    margin: 4px 0px 0 0;
+    align-items: center;
+  }
+
+  .menu__item {
+    position: relative;
+    margin-right: 27px;
+    font: 500 14px/16px 'Roboto', arial, Helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    transition: opacity 0.5s;
+  }
+
+  .main {
+    margin-left: 0px;
+    background-size: 74%;
+    padding: 0 50% 326px 0;
+    background: top right no-repeat url(img/Frame1024.svg);
+  }
+
+  .main__title {
+    padding-top: 16px;
+    font: bold 50px/65px 'pt_serifbold', arial, Helvetica, sans-serif;
+  }
+
+  .main__description {
+    margin-bottom: 42px;
+    font: 500 18px/21px 'Roboto', arial, Helvetica, sans-serif;
+  }
+
+  .main__button {
+    padding: 14px 21px;
+    font: bold 14px/16px 'Roboto', arial, Helvetica, sans-serif;
+  }
+
+  .main__circle_color_white {
+    position: relative;
+    margin-top: 148px;
+    margin-left: 462px;
+    width: 8px;
+    height: 8px;
+    background: #c8dbfb;
+    border-radius: 50%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
