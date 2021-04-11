@@ -121,7 +121,7 @@ body {
 
 .main__description {
   width: 460px;
-  margin: 0 0px 40px 0;
+  margin: 0 0 40px 0;
   font: normal 22px/26px 'Roboto', arial, Helvetica, sans-serif;
 }
 
@@ -206,7 +206,7 @@ body {
 
   .menu {
     display: flex;
-    margin: 7px 0px 0 0;
+    margin: 7px 0 0 0;
     align-items: center;
   }
 
@@ -220,8 +220,8 @@ body {
   }
 
   .main {
-    background-size: 74%;
     background: top right no-repeat url(img/Frame1366.svg);
+    background-size: 74%;
   }
 
   .main__title {
@@ -231,7 +231,7 @@ body {
   }
 
   .main__description {
-  	width: 370px;
+    width: 370px;
     margin-bottom: 42px;
     font: 500 18px/21px 'Roboto', arial, Helvetica, sans-serif;
   }
@@ -271,7 +271,6 @@ body {
 
   .logo__circle {
     position: absolute;
-    left: 0px;
     top: 49%;
     transform: translateY(-50%);
     width: 28px;
@@ -288,7 +287,7 @@ body {
 
   .menu {
     display: flex;
-    margin: 6px 0px 0 0;
+    margin: 6px 0 0 0;
     align-items: center;
   }
 
@@ -302,9 +301,8 @@ body {
   }
 
   .main {
-    margin-left: 0px;
-    background-size: 74%;
     padding: 0 50% 326px 0;
+    background-size: 74%;
     background: top right no-repeat url(img/Frame1024.svg);
   }
 
@@ -377,27 +375,27 @@ body {
     text-align: center;
     margin-right: 19px;
     padding: 77% 0 0 10px;
-    background-size: 74%;
     background: top right no-repeat url(img/Frame375x667.svg);
+    background-size: 74%;
     background-position: top center;
   }
 
   .main__title {
-  	width: 270px;
+    width: 270px;
     padding-top: 30px;
     margin-bottom: 33px;
     font: bold 30px/39px 'pt_serifbold', arial, Helvetica, sans-serif;
   }
 
   .main__description {
-  	width: 260px;
-  	margin-left: 5px;
+    width: 260px;
+    margin-left: 5px;
     margin-bottom: 25px;
     font: 500 16px/19px 'Roboto', arial, Helvetica, sans-serif;
   }
 
   .main__button {
-  	margin-right: 5px;
+    margin-right: 5px;
     font: normal 14px/16px 'Roboto', arial, Helvetica, sans-serif;
   }
 }
