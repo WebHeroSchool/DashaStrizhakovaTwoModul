@@ -364,22 +364,6 @@ body {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  .v {
-    display: none;
-  }
-
   #menu__toggle {
     opacity: 0;
   }
@@ -419,13 +403,14 @@ body {
   }
 
 /* контейнер меню */
-  .menu__box {
-    display: block;
+  .menu {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 300px;
+    width: 100%;
     height: 100%;
     margin: 0;
     padding: 80px 0;
@@ -433,11 +418,12 @@ body {
     text-align: center;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  }
+       
+    }
 
 /* элементы меню */
   .menu__item {
-    display: block;
+       display: inline-block;
     padding: 12px 24px;
     color: #333;
     font-family: 'Roboto', sans-serif;
@@ -447,91 +433,6 @@ body {
   }
 
   .menu__item:hover {
-    background-color: #CFD8DC;
+        opacity: .5;
   }
-
-  #menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-  }
-
-  #menu__toggle:checked ~ .menu__btn > span::before {
-   top: 0;
-    transform: rotate(0);
-  }
-
-  #menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-  }
-
-  #menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    left: 0;
-  }
-
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
-   transition-duration: .25s;
-  }
-
-  .menu__box {
-    transition-duration: .25s;
-  }
-
-  .menu__item {
-    transition-duration: .25s;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-  .main__circle_color_white {
-    display: none;
-  }
-
-  .header {
-    margin-bottom: 7px;
-  }
-
-  .logo > span {
-    display: none;
-  }
-
-  .main {
-    text-align: center;
-    margin-right: 19px;
-    padding: 77% 0 0 10px;
-    background: top right no-repeat url(img/Frame375x667.svg);
-    background-size: 74%;
-    background-position: top center;
-  }
-
-  .main__title {
-    width: 270px;
-    padding-top: 30px;
-    margin-bottom: 33px;
-    font: bold 30px/39px 'pt_serifbold', arial, Helvetica, sans-serif;
-  }
-
-  .main__description {
-    width: 260px;
-    margin-left: 5px;
-    margin-bottom: 25px;
-    font: 500 16px/19px 'Roboto', arial, Helvetica, sans-serif;
-  }
-
-  .main__button {
-    margin-right: 5px;
-    font: normal 14px/16px 'Roboto', arial, Helvetica, sans-serif;
-  }
-}
 
