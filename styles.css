@@ -354,7 +354,7 @@ body {
   .logo__circle_color_blue {
     left: -14px;
     top: 56%;
-    background: #C8DBFB;
+    background: #c8dbfb;
     border-radius: 50%;
     opacity: 0.7;
   }
@@ -369,8 +369,8 @@ body {
   }
 
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center;  /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center;
     position: fixed;
     margin-top: 12px;
     margin-left: 306px;
@@ -402,7 +402,6 @@ body {
     top: 7px;
   }
 
-/* контейнер меню */
   .menu {
     display: flex;
     flex-direction: column;
@@ -416,24 +415,26 @@ body {
     padding: 80px 0;
     list-style: none;
     text-align: center;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    background-color: #e5e5e5;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
        
     }
 
-/* элементы меню */
   .menu__item {
-       display: inline-block;
-    padding: 12px 24px;
-    color: #333;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    display: inline-block;
+    margin-right: 0;
+    padding: 12.5px 24px;
+    color: #333333;
+    font: 600 30px/35px 'Roboto', sans-serif;
     text-decoration: none;
   }
 
+  .menu__item:first-child {
+    margin: 94px 0 0 0px;
+  }
+
   .menu__item:hover {
-        opacity: .5;
+    opacity: 0.5;
   }
 
   .menu__item:hover::after {
@@ -442,7 +443,11 @@ body {
     max-width: 100%;
     height: 3px;
     position: absolute;
-    background: #0056EC;
+    background: #e5e5e5;
+  }
+
+  .menu__item.menu__item_active::after {
+    display: none;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -450,7 +455,7 @@ body {
   }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
-   top: 0;
+    top: 0;
     transform: rotate(0);
   }
 
