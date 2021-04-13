@@ -49,10 +49,6 @@ body {
   opacity: 0.7;
 }
 
-.hamburger-menu {
-
-}
-
 .menu {
   display: flex;
   margin: 4px 10px 0 0;
@@ -306,8 +302,8 @@ body {
 
   .main {
     padding: 0 50% 326px 0;
-    background-size: 74%;
     background: top right no-repeat url(img/Frame1024.svg);
+    background-size: 74%;
   }
 
   .main__title {
@@ -316,7 +312,7 @@ body {
   }
 
   .main__description {
-  	width: 370px;
+    width: 370px;
     margin-bottom: 42px;
     font: 500 18px/21px 'Roboto', arial, Helvetica, sans-serif;
   }
@@ -358,11 +354,6 @@ body {
     border-radius: 50%;
     opacity: 0.7;
   }
-
-  .menu {
-    display: none;
-  }
-
 
   #menu__toggle {
     opacity: 0;
@@ -417,20 +408,19 @@ body {
     text-align: center;
     background-color: #e5e5e5;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-       
     }
 
   .menu__item {
     display: inline-block;
     margin-right: 0;
     padding: 12.5px 24px;
-    color: #333333;
+    color: #333;
     font: 600 30px/35px 'Roboto', sans-serif;
     text-decoration: none;
   }
 
   .menu__item:first-child {
-    margin: 94px 0 0 0px;
+    margin: 94px 0 0 0;
   }
 
   .menu__item:hover {
@@ -509,3 +499,4 @@ body {
     font: normal 14px/16px 'Roboto', arial, Helvetica, sans-serif;
   }
 }
+
