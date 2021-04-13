@@ -407,8 +407,8 @@ body {
     list-style: none;
     text-align: center;
     background-color: #e5e5e5;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-    }
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+  }
 
   .menu__item {
     display: inline-block;
