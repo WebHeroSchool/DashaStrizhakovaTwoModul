@@ -132,17 +132,17 @@ body {
 .main__button {
   display: inline-block;
   color: #fff;
-  padding: 18px 21px;
+  padding: 18px 38px 18px 23px;
   background: #0056EC;
   border-radius: 4px;
   text-decoration: none;
-  font: normal 19.5px/21px 'Roboto', arial, Helvetica, sans-serif;
+  font: normal 18px/21px 'Roboto', arial, Helvetica, sans-serif;
   transition: box-shadow 0.7s;
   transition: background 0.7s;
 }
 
 .main__button:hover {
-  color: #0056EC;
+  color: #0056ec;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   background: rgba(0,0,0,0);
 }
@@ -244,7 +244,7 @@ body {
   }
 
   .main__button {
-    padding: 14px 21px;
+    padding: 14px 26px 14px 17px;
     font: bold 14px/16px 'Roboto', arial, Helvetica, sans-serif;
   }
 
@@ -313,7 +313,7 @@ body {
   }
 
   .main {
-  	margin-left: 0px;
+    margin-left: 0px;
     padding: 0 50% 326px 0;
     background: top right no-repeat url(img/Frame1024.svg);
     background-size: 55.3%;
@@ -501,8 +501,8 @@ body {
   }
 
   .main__description {
-    width: 260px;
-    margin-left: 5px;
+    width: 250px;
+    margin-left: 9px;
     margin-bottom: 25px;
     font: 500 16px/19px 'Roboto', arial, Helvetica, sans-serif;
   }
