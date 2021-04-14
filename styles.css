@@ -143,8 +143,8 @@ body {
 
 .main__button:hover {
   color: #0056ec;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  background: rgba(0,0,0,0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
 }
 
 .main__circle_color_white {
@@ -278,7 +278,7 @@ body {
 
   .logo__circle {
     position: absolute;
-    left: 0px;
+    left: 0;
     top: 49%;
     transform: translateY(-50%);
     width: 28px;
@@ -313,7 +313,7 @@ body {
   }
 
   .main {
-    margin-left: 0px;
+    margin-left: 0;
     padding: 0 50% 326px 0;
     background: top right no-repeat url(img/Frame1024.svg);
     background-size: 55.3%;
