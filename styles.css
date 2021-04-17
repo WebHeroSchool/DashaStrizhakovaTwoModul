@@ -513,3 +513,43 @@ body {
   }
 }
 
+@media (min-width: 769px) and  (max-width: 1023px) {
+  .main {
+    max-width: 90%;
+    min-width: 74.6%;
+  }
+
+  .main__title {
+    max-width: 71.2%;
+    min-width: 42.3%;
+  }
+}
+
+@media (min-width: 1025px) and  (max-width: 1365px) {
+  .main__title {
+    max-width: 31.7%;
+    min-width: 42.3%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
