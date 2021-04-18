@@ -882,14 +882,14 @@ body {
     width: 270px;
     padding-top: 30px;
     margin-left: 0;
-    margin-bottom: 33px;
+    margin-bottom: 35px;
     font: bold 30px/39px 'pt_serifbold', arial, Helvetica, sans-serif;
   }
 
   .main__description {
     width: 250px;
     margin-left: 9px;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
     font: 500 16px/19px 'Roboto', arial, Helvetica, sans-serif;
   }
 
