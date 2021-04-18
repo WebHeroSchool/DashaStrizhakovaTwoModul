@@ -419,7 +419,7 @@ body {
     padding: 80px 0;
     list-style: none;
     text-align: center;
-    background-color: #e5e5e5;
+    background-color: #ffffff;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
@@ -512,44 +512,4 @@ body {
     font: normal 14px/16px 'Roboto', arial, Helvetica, sans-serif;
   }
 }
-
-@media (min-width: 769px) and  (max-width: 1023px) {
-  .main {
-    max-width: 90%;
-    min-width: 74.6%;
-  }
-
-  .main__title {
-    max-width: 71.2%;
-    min-width: 42.3%;
-  }
-}
-
-@media (min-width: 1025px) and  (max-width: 1365px) {
-  .main__title {
-    max-width: 31.7%;
-    min-width: 42.3%;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
