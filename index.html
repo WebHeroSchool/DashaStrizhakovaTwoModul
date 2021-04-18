@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, inistal-scale=1">
 	<title>Сайт по шаблону</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap&quot">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
 	<link rel="stylesheet" href="font.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
@@ -14,8 +14,13 @@
 			<div class="logo">
 			<div class="logo__circle logo__circle_color_dark-blue"></div>
 			<div class="logo__circle logo__circle_color_blue"></div>
-			<span>app.creation<span>
+			<span>app.creation</span>
 			</div>
+			<div class="hamburger-menu">
+				<input id="menu__toggle" type="checkbox" />
+				<label class="menu__btn" for="menu__toggle">
+					<span></span>
+				</label>
 			<nav class="menu">
 				<a class="menu__item" href="#">start</a>
 				<a class="menu__item menu__item_active" href="#">services</a>
@@ -23,13 +28,14 @@
 				<a class="menu__item" href="#">blog</a>
 				<a class="menu__item" href="#">contact us</a>
 			</nav>
+			</div>
 		</header>
 		<section class="main">
 				<h1 class="main__title">
 				Building an App 
 				<span class="main__title-text_highlight">Without Design Expertise</span>?
 				</h1>
-				<p class="main__description">I help tech startups design better digital <br> products without hiring a full-time designer</p>
+				<p class="main__description">I help tech startups design better digital products without hiring a full-time designer</p>
 				<a class="main__button" href="#">Schedule free consultation</a>
 				<div class="main__circle_color_white"></div>
 		</section>
