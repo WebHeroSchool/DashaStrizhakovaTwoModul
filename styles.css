@@ -109,7 +109,7 @@ body {
 
 .main {
   margin-left: 2px;
-  padding: 0 63% 326px 0;
+  padding: 0 63% 38px 0;
   background: top right no-repeat url(img/Frame.svg);
 }
 
@@ -512,4 +512,5 @@ body {
     font: normal 14px/16px 'Roboto', arial, Helvetica, sans-serif;
   }
 }
+
 
